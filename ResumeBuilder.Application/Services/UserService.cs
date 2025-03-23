@@ -1,5 +1,6 @@
 ﻿
 using AutoMapper;
+using ResumeBuilder.Application.Common;
 using ResumeBuilder.Application.DTOs;
 using ResumeBuilder.Application.Validators;
 using ResumeBuilder.Domain.Contracts;
@@ -53,6 +54,21 @@ namespace ResumeBuilder.Application.Services
 
             }
             return null;
+        }
+
+        public async Task<Result> UpdateUserAsync(ApplicationUserDto updatedUser, string ApplicationUserId)
+        {
+
+            var user = await _unitOfWork.Users.GetByIdAsync(ApplicationUserId);
+            if (user == null)
+                return Result.Failure("User not found or access denied");
+
+            _mapper.Map(updatedUser, user);
+
+            _unitOfWork.Users.UpdateAsync(user);
+
+            await _unitOfWork.SaveChangesAsync();
+            return Result.Success("User updated successfully");
         }
     }
 }

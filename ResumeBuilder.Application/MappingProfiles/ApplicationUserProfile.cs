@@ -15,11 +15,11 @@ namespace ResumeBuilder.Application.MappingProfiles
         public ApplicationUserProfile()
         {
             CreateMap<ApplicationUser, ApplicationUserDto>()
-       .ForMember(dest => dest.PersonalInfo, opt => opt.MapFrom(src => src.PersonalInfo));
+       .ForMember(dest => dest.PersonalInfo, opt => opt.MapFrom(src => src.PersonalInfo)).ReverseMap();
 
 
-            CreateMap<PersonalInformation, PersonalInformationDto>();
-            CreateMap<Address, AddressDto>();
+            CreateMap<PersonalInformation, PersonalInformationDto>().ReverseMap();
+            CreateMap<Address, AddressDto>().ReverseMap();
         }
     }
 }

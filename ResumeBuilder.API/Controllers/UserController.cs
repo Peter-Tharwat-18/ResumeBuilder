@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ResumeBuilder.Application.DTOs;
 using ResumeBuilder.Application.Services;
 using ResumeBuilder.Domain.Contracts;
 using System.Security.Claims;
@@ -35,6 +36,21 @@ namespace ResumeBuilder.API.Controllers
 
             return Ok(userDto);
         }
+
+        [HttpPost("{ApplicationUserId}")]
+        public async Task<IActionResult> Update(string ApplicationUserId, [FromBody] ApplicationUserDto userDto)
+        {
+      
+            if (string.IsNullOrEmpty(CheckLoginUser()))
+                return Unauthorized("User not found.");
+
+            var result = await _userService.UpdateUserAsync(userDto, ApplicationUserId);
+            if (result == null)
+                return NotFound("User not found.");
+
+            return NoContent();
+        }
+
 
         private string? CheckLoginUser()
         {
