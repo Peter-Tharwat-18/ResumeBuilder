@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eJvRNUqDdxlbM8PFxgO+bGZUF7NgS4ReZtplbw5MXW4=",
+  "Source": "ResumeBuilder.API",
+  "BasePath": "_content/ResumeBuilder.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

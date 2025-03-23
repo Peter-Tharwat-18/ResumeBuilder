@@ -1,0 +1,15 @@
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\bin\Debug\net8.0\ResumeBuilder.Application.deps.json
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\bin\Debug\net8.0\ResumeBuilder.Application.dll
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\bin\Debug\net8.0\ResumeBuilder.Application.pdb
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.AssemblyInfoInputs.cache
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.AssemblyInfo.cs
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.csproj.CoreCompileInputs.cache
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.dll
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\refint\ResumeBuilder.Application.dll
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.pdb
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ref\ResumeBuilder.Application.dll
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\bin\Debug\net8.0\ResumeBuilder.Domain.dll
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\bin\Debug\net8.0\ResumeBuilder.Domain.pdb
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.csproj.AssemblyReference.cache
+D:\Interviews\ResumeBuilder\ResumeBuilder.Application\obj\Debug\net8.0\ResumeBuilder.Application.csproj.CopyComplete
